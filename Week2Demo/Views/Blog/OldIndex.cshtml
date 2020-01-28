@@ -1,0 +1,22 @@
+﻿@model IEnumerable<Week2Demo.Models.Article>
+
+<!-- AtSign model Week2Demo.Models.Article   // totally important line!
+-->
+
+@{
+    ViewData["Title"] = "Blog";
+}
+
+@foreach (var article in Model)
+{
+    <h1>@article.Title</h1>
+    <h4>
+        Posted <span>@article.Date</span> by <span>@article.Author</span>
+    </h4>
+    <p>
+        @article.Body
+    </p>
+}
+
+
+<a asp-controller="Blog" asp-action="Create">Create a new post</a>

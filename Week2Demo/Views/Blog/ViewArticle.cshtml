@@ -1,0 +1,9 @@
+﻿@model Week2Demo.Models.Article   // totally important line!
+
+@{
+    ViewData["Title"] = "Blog";
+}
+
+<h1>@Model.Title</h1>
+<h4>Posted @Model.Date by @Model.Author </h4>
+<p>@Model.Body</p>
