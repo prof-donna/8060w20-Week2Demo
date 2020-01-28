@@ -1,0 +1,7 @@
+﻿https://www.linkedin.com/learning/learning-asp-net-core-mvc
+
+I drew heavily on this course for the DB and Entity Framework piece of connecting things together.
+
+I renamed the Posts to Articles to remove the potential confusion around the "POST" HTTP action and the blog posts/articles.
+
+I also kept this example because I want them to do the Contact Us page on their own. This gives them everything they need.
